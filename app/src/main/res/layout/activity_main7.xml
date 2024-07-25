@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFBABA"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity7">
+
+        <Button
+            android:id="@+id/balikon"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="35dp"
+            android:backgroundTint="@color/black"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/page"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Trivia"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/idk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/page"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:text="- The name isn't set in stone.
+
+
+                                                            The only reason it's called Gen Z in the first place is because it comes two generations after Gen X (itself a label meant to evoke a lack of labels). The term Zoomer has popped up and been used widely, particularly since use of the Zoom app to partake in online classes has dominated school culture during pandemic shutdowns. Yet even that name has a complicated history, because a Zoomer used to be a highly active Boomer. Now it stands in stark contrast to that generation of grandparents and great-grandparents, born from the internet itself and, specifically, a dependency on it during a time where people are still cautious about meeting in person. Sociologists and businesses have also tried to label them the Homeland Generation, the iGeneration, and more."
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+        android:text="- Their brains might work faster.
+
+
+
+
+
+                                          The data isn't fully conclusive, but studies from the University of California at Los Angeles Semel Institute for Neuroscience and Human Behavior and the University of Minnesota both point to the possibility that digital natives process information faster and stay more actively engaged when looking at a website. Some have shown cause for concern because of recent studies showing that Gen Z attention spans have gone down to 8 seconds (from the 12-second eternity experienced by Millennials), while others see it as an evolutionary necessity to filter out a larger amount of informational noise than humans have ever experienced before."
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/form"
+            android:layout_width="405dp"
+            android:layout_height="283dp"
+            android:layout_below="@+id/tri"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:text="@string/link"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </RelativeLayout>
+</ScrollView>

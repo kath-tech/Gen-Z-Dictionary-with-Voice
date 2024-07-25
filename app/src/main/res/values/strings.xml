@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GLang</string>
+    <string name="link">
+        Source: <a href="https://www.mentalfloss.com/posts/gen-z-history-facts"> https://www.mentalfloss.com/posts/gen-z-history-facts</a>
+    </string>
+    <string name="yarn">
+       - Ito ay ginagamit bilang pamalit sa salitang \"yan\".
+    </string>
+    <string name="vaketch">
+       - Balbal na salita na ginagamit bilang pamalit sa salitang \"Bakit\".
+    </string>
+    <string name="anek">
+       - Ginagamit bilang panukoy sa isang bagay. Pamalit sa salitang \"Ano\".
+    </string>
+    <string name="sksk">
+       - Sa Tagalog, maaring itumbas ito sa \"Hahaha\" o \"Hehehe\" na nagpapakita ng tuwa o kasiyahan.
+    </string>
+    <string name="omg">
+       - Sa Tagalog, maaari itong isalin bilang \"Diyos ko!\" o \"Grabe!\"
+    </string>
+
+</resources>

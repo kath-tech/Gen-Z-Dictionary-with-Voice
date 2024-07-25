@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/omb"
+    tools:context=".chaka">
+
+
+
+    <Button
+        android:id="@+id/balikon"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/black"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/pronounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/omsim"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-590dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:onClick="play"
+        android:text="Pronounce"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/balikon"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Chaka"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-28dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="- Ginagamit upang ilarawan ang isang bagay o tao na hindi kaaya-aya sa paningin o hindi kaakit-akit.
+
+
+
+
+
+
+                                                                    - Madalas itong ginagamit upang ilarawan ang hitsura ng isang tao o ang kalidad ng isang bagay
+                                                          Meaning: pangit o hindi maganda
+
+                                                             Example:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/omsim"
+        android:layout_width="348dp"
+        android:layout_height="265dp"
+        android:layout_below="@id/ak"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/chaka" />
+
+</RelativeLayout>
